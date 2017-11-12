@@ -1,6 +1,11 @@
 # ios\_apikit\_codable\_sample
 api access sample using APIKit,codable
 
+## Installation
+### APIKit
+In `Podfile`, `pod 'APIKit', '~> 3.1'`.
+And `$ pod install`. 
+
 ## Hide API keys
 Hide api keys using cocoapods-key, cocoapods plugin.
 
