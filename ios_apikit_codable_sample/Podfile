@@ -15,6 +15,11 @@ target 'ios_apikit_codable_sample' do
   target 'ios_apikit_codable_sampleTests' do
     inherit! :search_paths
     # Pods for testing
+    plugin 'cocoapods-keys', {
+      :project => "ios_apikit_codable_sampleTests",
+      :keys => [
+        "accessKey"
+    ]}
   end
 
 end

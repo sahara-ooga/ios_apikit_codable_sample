@@ -1,5 +1,5 @@
 //
-//  ios_apikit_codable_sampleTests.swift
+//  CocoapodsKeyTests.swift
 //  ios_apikit_codable_sampleTests
 //
 //  Created by yogasawara@stv on 2017/11/12.
@@ -7,11 +7,13 @@
 //
 
 import XCTest
+import Keys
 
+@testable import ios_apikit_codable_sample
 
-class ios_apikit_codable_sampleTests: XCTestCase {
-    
-    
+class CocoapodsKeyTests: XCTestCase {
+    let keys = Ios_apikit_codable_sampleKeys()
+
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -23,8 +25,7 @@ class ios_apikit_codable_sampleTests: XCTestCase {
     }
     
     func testExample() {
-        
+        XCTAssertNotNil(keys.accessKey)
     }
-    
     
 }

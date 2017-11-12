@@ -13,6 +13,7 @@
 		1006A4D81FB82AF60056778A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1006A4D71FB82AF60056778A /* Assets.xcassets */; };
 		1006A4DB1FB82AF60056778A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1006A4D91FB82AF60056778A /* LaunchScreen.storyboard */; };
 		1006A4E61FB82AF70056778A /* ios_apikit_codable_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1006A4E51FB82AF70056778A /* ios_apikit_codable_sampleTests.swift */; };
+		1077568A1FB835DD004E53BA /* CocoapodsKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107756891FB835DD004E53BA /* CocoapodsKeyTests.swift */; };
 		8ADD684C20D1BF117CFABE94 /* Pods_ios_apikit_codable_sampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEEECEE508FFF1A9681B681 /* Pods_ios_apikit_codable_sampleTests.framework */; };
 		C796C674A2B1198B7171B885 /* Pods_ios_apikit_codable_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B70E3AB5CC9B5BC2D1C2DDF /* Pods_ios_apikit_codable_sample.framework */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		1006A4E11FB82AF70056778A /* ios_apikit_codable_sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_apikit_codable_sampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1006A4E51FB82AF70056778A /* ios_apikit_codable_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_apikit_codable_sampleTests.swift; sourceTree = "<group>"; };
 		1006A4E71FB82AF70056778A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107756891FB835DD004E53BA /* CocoapodsKeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoapodsKeyTests.swift; sourceTree = "<group>"; };
 		1B70E3AB5CC9B5BC2D1C2DDF /* Pods_ios_apikit_codable_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_apikit_codable_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E34D110B7B46A74AD3EC71C /* Pods-ios_apikit_codable_sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_apikit_codable_sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios_apikit_codable_sample/Pods-ios_apikit_codable_sample.release.xcconfig"; sourceTree = "<group>"; };
 		918EC98CC8307AF63DB6FB83 /* Pods-ios_apikit_codable_sampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_apikit_codable_sampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios_apikit_codable_sampleTests/Pods-ios_apikit_codable_sampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			children = (
 				1006A4E51FB82AF70056778A /* ios_apikit_codable_sampleTests.swift */,
 				1006A4E71FB82AF70056778A /* Info.plist */,
+				107756891FB835DD004E53BA /* CocoapodsKeyTests.swift */,
 			);
 			path = ios_apikit_codable_sampleTests;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1006A4E61FB82AF70056778A /* ios_apikit_codable_sampleTests.swift in Sources */,
+				1077568A1FB835DD004E53BA /* CocoapodsKeyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
