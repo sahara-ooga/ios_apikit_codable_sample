@@ -4,14 +4,16 @@
 target 'ios_apikit_codable_sample' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
+  
   # Pods for ios_apikit_codable_sample
-  plugin 'cocoapods-keys', {
-  :project => "ios_apikit_codable_sample",
-  :keys => [
-    "accessKey"
-]}
+    plugin 'cocoapods-keys', {
+        :project => "ios_apikit_codable_sample",
+        :keys => [
+        "accessKey"
+    ]}
 
+    pod 'APIKit', '~> 3.1'
+    
   target 'ios_apikit_codable_sampleTests' do
     inherit! :search_paths
     # Pods for testing
@@ -20,6 +22,8 @@ target 'ios_apikit_codable_sample' do
       :keys => [
         "accessKey"
     ]}
+    
+    pod 'APIKit', '~> 3.1'
   end
 
 end

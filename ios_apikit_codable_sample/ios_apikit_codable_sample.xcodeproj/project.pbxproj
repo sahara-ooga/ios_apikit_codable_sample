@@ -290,9 +290,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ios_apikit_codable_sampleTests/Pods-ios_apikit_codable_sampleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APIKit/APIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -324,11 +329,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ios_apikit_codable_sample/Pods-ios_apikit_codable_sample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APIKit/APIKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Keys/Keys.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APIKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Keys.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
