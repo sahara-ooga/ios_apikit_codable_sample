@@ -65,3 +65,6 @@ import Keys
 let keys = Ios_apikit_codable_sampleKeys()
 print(keys.accessKey)	//value
 ```
+
+### Reference
+[cocoapods-keysを複数人で使う方法(環境設定値のプロジェクトからの切り離し)](https://qiita.com/sgr-ksmt/items/8dfcf61f60a6ef557aa8#_reference-6b3a97aae66159e8d60b)
