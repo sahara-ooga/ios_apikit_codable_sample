@@ -29,9 +29,6 @@ $ rm -rf ~/CocoaPodsCaches
 1. In `Podfile`, `pod 'APIKit', '~> 3.1'`.
 1. And `$ pod install`. 
 
-### AlamofireImage
-`pod 'AlamofireImage', '~> 3.3'`
-
 ## Hide API keys
 Hide api keys using cocoapods-key, that is cocoapods plugin.
 
