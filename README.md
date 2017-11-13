@@ -1,18 +1,18 @@
 # ios\_apikit\_codable\_sample
-api access sample using APIKit,codable
+API access sample using APIKit,codable.
 
 ## Installation
 ### APIKit
-In `Podfile`, `pod 'APIKit', '~> 3.1'`.
-And `$ pod install`. 
+1. In `Podfile`, `pod 'APIKit', '~> 3.1'`.
+1. And `$ pod install`. 
 
 ## Hide API keys
-Hide api keys using cocoapods-key, cocoapods plugin.
+Hide api keys using cocoapods-key, that is cocoapods plugin.
 
-### 1. `.env`file
+### 1. Create `.env`file
 `accessKey="value"`
 
-### 2. `Podfile`
+### 2. Edit `Podfile`
 NOTE: If you want to use cocoapods key in unit tests, you have to write in test terget.
 
 ```
@@ -40,10 +40,10 @@ target 'ios_apikit_codable_sample' do
 end
 ```
 
-### 3. `pod install`
+### 3. `$ pod install`
 
 ### 4. Confirmation
-#### `pod keys`
+#### `$ pod keys`
 `pod keys` displays keys.
  
 ```
@@ -54,20 +54,20 @@ Keys for ios_apikit_codable_sample
 ```
 
 ### 5. Usage
-Check `Pods/Development Pods/Keys`. If succeeded, *hogehoge*Keys.h file is generated. The header file show key name:
+Check `Pods/Development Pods/Keys`. If succeeded, *hogehoge*Keys.h file is generated. The header file shows keys name:
 
 ```
 @interface Ios_apikit_codable_sampleKeys : NSObject
 ```
 
-Code like this:
+Therefore, Codes like this:
 
 ```
 import Keys
 
 ...
 
-let keys = Ios_apikit_codable_sampleKeys()
+let keys = Ios_apikit_codable_sampleKeys()  //derived from hogehogeKeys.h
 print(keys.accessKey)	//value
 ```
 
