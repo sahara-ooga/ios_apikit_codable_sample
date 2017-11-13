@@ -2,9 +2,35 @@
 API access sample using APIKit,codable.
 
 ## Installation
+Used cocoapods in this sample.
+
+If cocoapods has any trouble, try this:
+
+```
+#backup
+$ mv ~/.cocoapods ~/cocoapods
+$ mv ~/Library/Caches/CocoaPods ~/CocoaPodsCaches
+
+# reset cocoapods, it takes a little time...😅
+$ pod setup
+
+$ pod install
+
+# make sure files fetched
+$ ls ~/.cocoapods
+$ ls ~/Library/Caches/CocoaPods
+
+# remove backup
+$ rm -rf ~/cocoapods
+$ rm -rf ~/CocoaPodsCaches
+```
+
 ### APIKit
 1. In `Podfile`, `pod 'APIKit', '~> 3.1'`.
 1. And `$ pod install`. 
+
+### AlamofireImage
+`pod 'AlamofireImage', '~> 3.3'`
 
 ## Hide API keys
 Hide api keys using cocoapods-key, that is cocoapods plugin.
@@ -75,7 +101,7 @@ print(keys.accessKey)	//value
 [cocoapods-keysを複数人で使う方法(環境設定値のプロジェクトからの切り離し)](https://qiita.com/sgr-ksmt/items/8dfcf61f60a6ef557aa8#_reference-6b3a97aae66159e8d60b)
 
 
-##　Environment
+## Environment
 - Xcode 9
 - iOS 11
 - Swift 4
