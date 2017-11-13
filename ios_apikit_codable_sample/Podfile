@@ -13,7 +13,8 @@ target 'ios_apikit_codable_sample' do
     ]}
 
     pod 'APIKit', '~> 3.1'
-    
+    pod 'AlamofireImage', '~> 3.3'
+
   target 'ios_apikit_codable_sampleTests' do
     inherit! :search_paths
     # Pods for testing
@@ -24,6 +25,8 @@ target 'ios_apikit_codable_sample' do
     ]}
     
     pod 'APIKit', '~> 3.1'
+    pod 'AlamofireImage', '~> 3.3'
+    
   end
 
 end
