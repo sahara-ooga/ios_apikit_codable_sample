@@ -95,8 +95,14 @@ print(keys.accessKey)	//value
 ```
 
 ### Reference
-[cocoapods-keysを複数人で使う方法(環境設定値のプロジェクトからの切り離し)](https://qiita.com/sgr-ksmt/items/8dfcf61f60a6ef557aa8#_reference-6b3a97aae66159e8d60b)
+- [cocoapods-keysを複数人で使う方法(環境設定値のプロジェクトからの切り離し)](https://qiita.com/sgr-ksmt/items/8dfcf61f60a6ef557aa8#_reference-6b3a97aae66159e8d60b)
 
+- https://github.com/ishkawa/APIKit
+- [APIKit](https://www.slideshare.net/matsuda/apikit)
+- [APIKitとCodableでAPIクライアントを作る](https://qiita.com/sgr-ksmt/items/e822a379d41462e05e0d)
+
+- [ぐるなび　レストラン検索API　公式レファレンス](http://api.gnavi.co.jp/api/manual/restsearch/)
+- [ぐるなび　API テストツール](http://api.gnavi.co.jp/api/tools/?apitype=ver1_RestSearchAPI)
 
 ## Environment
 - Xcode 9
