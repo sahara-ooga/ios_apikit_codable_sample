@@ -34,6 +34,12 @@
 		10B8C59E1FBDD6C20060EB21 /* FileOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8C5991FBDD6C10060EB21 /* FileOrganizer.swift */; };
 		10B8C59F1FBDD6C20060EB21 /* GurunaviAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8C59A1FBDD6C20060EB21 /* GurunaviAPI.swift */; };
 		10B8C5A01FBDD6C20060EB21 /* JSONDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8C59B1FBDD6C20060EB21 /* JSONDataParser.swift */; };
+		10B8C5A51FBDD81B0060EB21 /* GurunaviErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8C5A11FBDD81B0060EB21 /* GurunaviErrorTests.swift */; };
+		10B8C5A61FBDD81B0060EB21 /* RestInfoDtoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8C5A21FBDD81B0060EB21 /* RestInfoDtoTest.swift */; };
+		10B8C5A71FBDD81B0060EB21 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8C5A31FBDD81B0060EB21 /* SessionTests.swift */; };
+		10B8C5A81FBDD81B0060EB21 /* LoadAreaInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8C5A41FBDD81B0060EB21 /* LoadAreaInfoTests.swift */; };
+		10B8C5AA1FBDD88A0060EB21 /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B8C5A91FBDD8890060EB21 /* response.json */; };
+		10B8C5AB1FBDD9130060EB21 /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B8C5A91FBDD8890060EB21 /* response.json */; };
 		8ADD684C20D1BF117CFABE94 /* Pods_ios_apikit_codable_sampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEEECEE508FFF1A9681B681 /* Pods_ios_apikit_codable_sampleTests.framework */; };
 		C796C674A2B1198B7171B885 /* Pods_ios_apikit_codable_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B70E3AB5CC9B5BC2D1C2DDF /* Pods_ios_apikit_codable_sample.framework */; };
 /* End PBXBuildFile section */
@@ -75,6 +81,11 @@
 		10B8C5991FBDD6C10060EB21 /* FileOrganizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileOrganizer.swift; sourceTree = "<group>"; };
 		10B8C59A1FBDD6C20060EB21 /* GurunaviAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GurunaviAPI.swift; sourceTree = "<group>"; };
 		10B8C59B1FBDD6C20060EB21 /* JSONDataParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDataParser.swift; sourceTree = "<group>"; };
+		10B8C5A11FBDD81B0060EB21 /* GurunaviErrorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GurunaviErrorTests.swift; sourceTree = "<group>"; };
+		10B8C5A21FBDD81B0060EB21 /* RestInfoDtoTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestInfoDtoTest.swift; sourceTree = "<group>"; };
+		10B8C5A31FBDD81B0060EB21 /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTests.swift; sourceTree = "<group>"; };
+		10B8C5A41FBDD81B0060EB21 /* LoadAreaInfoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadAreaInfoTests.swift; sourceTree = "<group>"; };
+		10B8C5A91FBDD8890060EB21 /* response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.json; sourceTree = "<group>"; };
 		1B70E3AB5CC9B5BC2D1C2DDF /* Pods_ios_apikit_codable_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_apikit_codable_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E34D110B7B46A74AD3EC71C /* Pods-ios_apikit_codable_sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_apikit_codable_sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios_apikit_codable_sample/Pods-ios_apikit_codable_sample.release.xcconfig"; sourceTree = "<group>"; };
 		918EC98CC8307AF63DB6FB83 /* Pods-ios_apikit_codable_sampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_apikit_codable_sampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios_apikit_codable_sampleTests/Pods-ios_apikit_codable_sampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,6 +149,11 @@
 		1006A4E41FB82AF70056778A /* ios_apikit_codable_sampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				10B8C5A91FBDD8890060EB21 /* response.json */,
+				10B8C5A11FBDD81B0060EB21 /* GurunaviErrorTests.swift */,
+				10B8C5A41FBDD81B0060EB21 /* LoadAreaInfoTests.swift */,
+				10B8C5A21FBDD81B0060EB21 /* RestInfoDtoTest.swift */,
+				10B8C5A31FBDD81B0060EB21 /* SessionTests.swift */,
 				1006A4E51FB82AF70056778A /* ios_apikit_codable_sampleTests.swift */,
 				1006A4E71FB82AF70056778A /* Info.plist */,
 				107756891FB835DD004E53BA /* CocoapodsKeyTests.swift */,
@@ -322,6 +338,7 @@
 				1006A4DB1FB82AF60056778A /* LaunchScreen.storyboard in Resources */,
 				10B8C5841FBDD4E10060EB21 /* area.json in Resources */,
 				10B8C58A1FBDD4E10060EB21 /* AreaParsedPartial.json in Resources */,
+				10B8C5AB1FBDD9130060EB21 /* response.json in Resources */,
 				10B8C5881FBDD4E10060EB21 /* Error.json in Resources */,
 				10B8C5861FBDD4E10060EB21 /* AreaParsed.json in Resources */,
 				1006A4D81FB82AF60056778A /* Assets.xcassets in Resources */,
@@ -337,6 +354,7 @@
 				10B8C5891FBDD4E10060EB21 /* Error.json in Resources */,
 				10B8C5871FBDD4E10060EB21 /* AreaParsed.json in Resources */,
 				10B8C5851FBDD4E10060EB21 /* area.json in Resources */,
+				10B8C5AA1FBDD88A0060EB21 /* response.json in Resources */,
 				10B8C5831FBDD4E10060EB21 /* PrefMaster.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,7 +497,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1006A4E61FB82AF70056778A /* ios_apikit_codable_sampleTests.swift in Sources */,
+				10B8C5A61FBDD81B0060EB21 /* RestInfoDtoTest.swift in Sources */,
+				10B8C5A81FBDD81B0060EB21 /* LoadAreaInfoTests.swift in Sources */,
+				10B8C5A51FBDD81B0060EB21 /* GurunaviErrorTests.swift in Sources */,
 				1077568A1FB835DD004E53BA /* CocoapodsKeyTests.swift in Sources */,
+				10B8C5A71FBDD81B0060EB21 /* SessionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
