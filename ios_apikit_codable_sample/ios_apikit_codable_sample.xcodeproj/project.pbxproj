@@ -24,6 +24,11 @@
 		10B8C5891FBDD4E10060EB21 /* Error.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B8C5801FBDD4E10060EB21 /* Error.json */; };
 		10B8C58A1FBDD4E10060EB21 /* AreaParsedPartial.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B8C5811FBDD4E10060EB21 /* AreaParsedPartial.json */; };
 		10B8C58B1FBDD4E10060EB21 /* AreaParsedPartial.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B8C5811FBDD4E10060EB21 /* AreaParsedPartial.json */; };
+		10B8C58D1FBDD5600060EB21 /* CommonDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8C58C1FBDD5600060EB21 /* CommonDefines.swift */; };
+		10B8C5921FBDD6180060EB21 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8C58E1FBDD6170060EB21 /* Area.swift */; };
+		10B8C5931FBDD6180060EB21 /* Pref.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8C58F1FBDD6180060EB21 /* Pref.swift */; };
+		10B8C5941FBDD6180060EB21 /* RestDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8C5901FBDD6180060EB21 /* RestDto.swift */; };
+		10B8C5951FBDD6180060EB21 /* RestInfoDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B8C5911FBDD6180060EB21 /* RestInfoDto.swift */; };
 		8ADD684C20D1BF117CFABE94 /* Pods_ios_apikit_codable_sampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEEECEE508FFF1A9681B681 /* Pods_ios_apikit_codable_sampleTests.framework */; };
 		C796C674A2B1198B7171B885 /* Pods_ios_apikit_codable_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B70E3AB5CC9B5BC2D1C2DDF /* Pods_ios_apikit_codable_sample.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +60,11 @@
 		10B8C57F1FBDD4E10060EB21 /* AreaParsed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AreaParsed.json; sourceTree = "<group>"; };
 		10B8C5801FBDD4E10060EB21 /* Error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Error.json; sourceTree = "<group>"; };
 		10B8C5811FBDD4E10060EB21 /* AreaParsedPartial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AreaParsedPartial.json; sourceTree = "<group>"; };
+		10B8C58C1FBDD5600060EB21 /* CommonDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonDefines.swift; sourceTree = "<group>"; };
+		10B8C58E1FBDD6170060EB21 /* Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		10B8C58F1FBDD6180060EB21 /* Pref.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pref.swift; sourceTree = "<group>"; };
+		10B8C5901FBDD6180060EB21 /* RestDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestDto.swift; sourceTree = "<group>"; };
+		10B8C5911FBDD6180060EB21 /* RestInfoDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestInfoDto.swift; sourceTree = "<group>"; };
 		1B70E3AB5CC9B5BC2D1C2DDF /* Pods_ios_apikit_codable_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_apikit_codable_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E34D110B7B46A74AD3EC71C /* Pods-ios_apikit_codable_sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_apikit_codable_sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios_apikit_codable_sample/Pods-ios_apikit_codable_sample.release.xcconfig"; sourceTree = "<group>"; };
 		918EC98CC8307AF63DB6FB83 /* Pods-ios_apikit_codable_sampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_apikit_codable_sampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios_apikit_codable_sampleTests/Pods-ios_apikit_codable_sampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +137,7 @@
 		10231AF31FB9CF3C0071F04A /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				10B8C58C1FBDD5600060EB21 /* CommonDefines.swift */,
 				10B8C57C1FBDD4AF0060EB21 /* JSON */,
 				1006A4D71FB82AF60056778A /* Assets.xcassets */,
 				1006A4D91FB82AF60056778A /* LaunchScreen.storyboard */,
@@ -155,6 +166,10 @@
 		10231AF61FB9CFF60071F04A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				10B8C58E1FBDD6170060EB21 /* Area.swift */,
+				10B8C58F1FBDD6180060EB21 /* Pref.swift */,
+				10B8C5901FBDD6180060EB21 /* RestDto.swift */,
+				10B8C5911FBDD6180060EB21 /* RestInfoDto.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -421,7 +436,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10B8C5951FBDD6180060EB21 /* RestInfoDto.swift in Sources */,
+				10B8C58D1FBDD5600060EB21 /* CommonDefines.swift in Sources */,
+				10B8C5941FBDD6180060EB21 /* RestDto.swift in Sources */,
+				10B8C5931FBDD6180060EB21 /* Pref.swift in Sources */,
 				1006A4D31FB82AF60056778A /* ViewController.swift in Sources */,
+				10B8C5921FBDD6180060EB21 /* Area.swift in Sources */,
 				1006A4D11FB82AF60056778A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
