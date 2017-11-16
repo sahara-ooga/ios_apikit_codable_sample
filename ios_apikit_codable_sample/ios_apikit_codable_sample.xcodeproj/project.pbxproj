@@ -14,6 +14,16 @@
 		1006A4DB1FB82AF60056778A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1006A4D91FB82AF60056778A /* LaunchScreen.storyboard */; };
 		1006A4E61FB82AF70056778A /* ios_apikit_codable_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1006A4E51FB82AF70056778A /* ios_apikit_codable_sampleTests.swift */; };
 		1077568A1FB835DD004E53BA /* CocoapodsKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107756891FB835DD004E53BA /* CocoapodsKeyTests.swift */; };
+		10B8C5821FBDD4E10060EB21 /* PrefMaster.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B8C57D1FBDD4E10060EB21 /* PrefMaster.json */; };
+		10B8C5831FBDD4E10060EB21 /* PrefMaster.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B8C57D1FBDD4E10060EB21 /* PrefMaster.json */; };
+		10B8C5841FBDD4E10060EB21 /* area.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B8C57E1FBDD4E10060EB21 /* area.json */; };
+		10B8C5851FBDD4E10060EB21 /* area.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B8C57E1FBDD4E10060EB21 /* area.json */; };
+		10B8C5861FBDD4E10060EB21 /* AreaParsed.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B8C57F1FBDD4E10060EB21 /* AreaParsed.json */; };
+		10B8C5871FBDD4E10060EB21 /* AreaParsed.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B8C57F1FBDD4E10060EB21 /* AreaParsed.json */; };
+		10B8C5881FBDD4E10060EB21 /* Error.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B8C5801FBDD4E10060EB21 /* Error.json */; };
+		10B8C5891FBDD4E10060EB21 /* Error.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B8C5801FBDD4E10060EB21 /* Error.json */; };
+		10B8C58A1FBDD4E10060EB21 /* AreaParsedPartial.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B8C5811FBDD4E10060EB21 /* AreaParsedPartial.json */; };
+		10B8C58B1FBDD4E10060EB21 /* AreaParsedPartial.json in Resources */ = {isa = PBXBuildFile; fileRef = 10B8C5811FBDD4E10060EB21 /* AreaParsedPartial.json */; };
 		8ADD684C20D1BF117CFABE94 /* Pods_ios_apikit_codable_sampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEEECEE508FFF1A9681B681 /* Pods_ios_apikit_codable_sampleTests.framework */; };
 		C796C674A2B1198B7171B885 /* Pods_ios_apikit_codable_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B70E3AB5CC9B5BC2D1C2DDF /* Pods_ios_apikit_codable_sample.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +50,11 @@
 		1006A4E51FB82AF70056778A /* ios_apikit_codable_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_apikit_codable_sampleTests.swift; sourceTree = "<group>"; };
 		1006A4E71FB82AF70056778A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		107756891FB835DD004E53BA /* CocoapodsKeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoapodsKeyTests.swift; sourceTree = "<group>"; };
+		10B8C57D1FBDD4E10060EB21 /* PrefMaster.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PrefMaster.json; sourceTree = "<group>"; };
+		10B8C57E1FBDD4E10060EB21 /* area.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = area.json; sourceTree = "<group>"; };
+		10B8C57F1FBDD4E10060EB21 /* AreaParsed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AreaParsed.json; sourceTree = "<group>"; };
+		10B8C5801FBDD4E10060EB21 /* Error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Error.json; sourceTree = "<group>"; };
+		10B8C5811FBDD4E10060EB21 /* AreaParsedPartial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AreaParsedPartial.json; sourceTree = "<group>"; };
 		1B70E3AB5CC9B5BC2D1C2DDF /* Pods_ios_apikit_codable_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_apikit_codable_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E34D110B7B46A74AD3EC71C /* Pods-ios_apikit_codable_sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_apikit_codable_sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios_apikit_codable_sample/Pods-ios_apikit_codable_sample.release.xcconfig"; sourceTree = "<group>"; };
 		918EC98CC8307AF63DB6FB83 /* Pods-ios_apikit_codable_sampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_apikit_codable_sampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios_apikit_codable_sampleTests/Pods-ios_apikit_codable_sampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -91,12 +106,10 @@
 		1006A4CF1FB82AF60056778A /* ios_apikit_codable_sample */ = {
 			isa = PBXGroup;
 			children = (
-				1006A4D01FB82AF60056778A /* AppDelegate.swift */,
-				1006A4D21FB82AF60056778A /* ViewController.swift */,
-				1006A4D41FB82AF60056778A /* Main.storyboard */,
-				1006A4D71FB82AF60056778A /* Assets.xcassets */,
-				1006A4D91FB82AF60056778A /* LaunchScreen.storyboard */,
-				1006A4DC1FB82AF60056778A /* Info.plist */,
+				10231AF61FB9CFF60071F04A /* Model */,
+				10231AF51FB9CFC70071F04A /* Controller */,
+				10231AF41FB9CFB40071F04A /* View */,
+				10231AF31FB9CF3C0071F04A /* Others */,
 			);
 			path = ios_apikit_codable_sample;
 			sourceTree = "<group>";
@@ -109,6 +122,53 @@
 				107756891FB835DD004E53BA /* CocoapodsKeyTests.swift */,
 			);
 			path = ios_apikit_codable_sampleTests;
+			sourceTree = "<group>";
+		};
+		10231AF31FB9CF3C0071F04A /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				10B8C57C1FBDD4AF0060EB21 /* JSON */,
+				1006A4D71FB82AF60056778A /* Assets.xcassets */,
+				1006A4D91FB82AF60056778A /* LaunchScreen.storyboard */,
+				1006A4DC1FB82AF60056778A /* Info.plist */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		10231AF41FB9CFB40071F04A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1006A4D41FB82AF60056778A /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		10231AF51FB9CFC70071F04A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1006A4D01FB82AF60056778A /* AppDelegate.swift */,
+				1006A4D21FB82AF60056778A /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		10231AF61FB9CFF60071F04A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		10B8C57C1FBDD4AF0060EB21 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				10B8C57E1FBDD4E10060EB21 /* area.json */,
+				10B8C57F1FBDD4E10060EB21 /* AreaParsed.json */,
+				10B8C5811FBDD4E10060EB21 /* AreaParsedPartial.json */,
+				10B8C5801FBDD4E10060EB21 /* Error.json */,
+				10B8C57D1FBDD4E10060EB21 /* PrefMaster.json */,
+			);
+			name = JSON;
 			sourceTree = "<group>";
 		};
 		406FF34D09AC51C11D5555F8 /* Pods */ = {
@@ -220,7 +280,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10B8C5821FBDD4E10060EB21 /* PrefMaster.json in Resources */,
 				1006A4DB1FB82AF60056778A /* LaunchScreen.storyboard in Resources */,
+				10B8C5841FBDD4E10060EB21 /* area.json in Resources */,
+				10B8C58A1FBDD4E10060EB21 /* AreaParsedPartial.json in Resources */,
+				10B8C5881FBDD4E10060EB21 /* Error.json in Resources */,
+				10B8C5861FBDD4E10060EB21 /* AreaParsed.json in Resources */,
 				1006A4D81FB82AF60056778A /* Assets.xcassets in Resources */,
 				1006A4D61FB82AF60056778A /* Main.storyboard in Resources */,
 			);
@@ -230,6 +295,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10B8C58B1FBDD4E10060EB21 /* AreaParsedPartial.json in Resources */,
+				10B8C5891FBDD4E10060EB21 /* Error.json in Resources */,
+				10B8C5871FBDD4E10060EB21 /* AreaParsed.json in Resources */,
+				10B8C5851FBDD4E10060EB21 /* area.json in Resources */,
+				10B8C5831FBDD4E10060EB21 /* PrefMaster.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
